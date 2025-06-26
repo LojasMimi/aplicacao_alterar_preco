@@ -1,7 +1,8 @@
-
 # 📦 Atualizador de Preços - Lojas Mimi
 
 Aplicação web desenvolvida em Python com [Streamlit](https://streamlit.io/) para realizar **consulta e atualização de preços de produtos (venda e custo)** nas Lojas Mimi, via API do [Varejo Fácil](https://varejofacil.com/).
+
+---
 
 ## 🧩 Funcionalidades
 
@@ -27,7 +28,7 @@ Aplicação web desenvolvida em Python com [Streamlit](https://streamlit.io/) pa
 
 ```bash
 git clone https://github.com/LojasMimi/aplicacao_alterar_preco.git
-cd seurepositorio
+cd aplicacao_alterar_preco
 ````
 
 ### 2. Crie e ative um ambiente virtual (opcional)
@@ -70,10 +71,17 @@ streamlit run app.py
 
 ---
 
+## 📌 Próxima Atualização
+
+Em breve será adicionada a funcionalidade de **alteração de preços em lote via upload de arquivo CSV**.
+O usuário poderá carregar uma planilha contendo múltiplos produtos com seus respectivos novos preços, e o sistema irá processar e aplicar as atualizações automaticamente para as lojas selecionadas.
+
+---
+
 ## 👨‍💻 Desenvolvido por
 
 [Pablo Dantas](https://github.com/opablodantas)
-Aspirante a Engenheiro de Inteligência Artificial 
+Aspirante a Engenheiro de Inteligência Artificial
 
 ---
 
